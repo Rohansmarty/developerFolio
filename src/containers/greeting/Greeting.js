@@ -56,10 +56,24 @@ export default function Greeting() {
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
+              (() => {
+                try {
+                  return (
+                    <img
+                      alt="Rohan Shamanthula"
+                      src={require("../../assets/images/rohan-profile.jpg")}
+                      style={{borderRadius: "50%", width: "300px", height: "300px", objectFit: "cover"}}
+                    ></img>
+                  );
+                } catch (e) {
+                  return (
+                    <img
+                      alt="Rohan Shamanthula"
+                      src={require("../../assets/images/manOnTable.svg")}
+                    ></img>
+                  );
+                }
+              })()
             )}
           </div>
         </div>

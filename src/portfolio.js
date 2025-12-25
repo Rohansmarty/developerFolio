@@ -16,30 +16,30 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static image (profile photo)
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rohan Shamanthula",
+  title: "Hi all, I'm Rohan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Java Full Stack Developer 🚀 with 3+ years of experience designing, developing, and deploying scalable web applications using Java/J2EE technologies and cloud-based solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://rohansmarty.github.io/My-Portfolio/assets/Rohan_Shamanthula_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Rohansmarty",
+  linkedin: "https://www.linkedin.com/in/rohan-shamanthula/",
+  gmail: "shamanthularohan@gmail.com",
+  // gitlab: "https://gitlab.com/rohansmarty",
+  // facebook: "https://www.facebook.com/rohansmarty",
+  // medium: "https://medium.com/@rohansmarty",
+  // stackoverflow: "https://stackoverflow.com/users/rohansmarty",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "JAVA FULL STACK DEVELOPER SPECIALIZING IN CLOUD-NATIVE MICROSERVICES AND SCALABLE APPLICATIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Architect and develop microservices using Spring Boot, reducing deployment time by 40%"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build responsive user interfaces with React.js and Angular 14, decreasing load times by 30%"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Deploy scalable applications on AWS (EC2, S3, Lambda), cutting infrastructure costs by 25%"
     )
   ],
 
@@ -65,16 +65,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -85,36 +77,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +114,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Wichita State University",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "2019 - 2021",
+      desc: "Specialized in software engineering, cloud computing, and distributed systems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Focus on Java/J2EE technologies and cloud-based solutions",
+        "Advanced coursework in database systems and software architecture"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Gokaraju Rangaraju Institute of Engineering and Technology",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Bachelor of Technology in Electronics and Communication Engineering",
+      duration: "2015 - 2019",
+      desc: "Strong foundation in engineering principles and software development.",
+      descBullets: ["Core coursework in programming, data structures, and computer networks"]
     }
   ]
 };
@@ -153,16 +141,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Java/Spring Boot", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Cloud & DevOps (AWS, Docker, K8s)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Frontend (React.js, Angular)",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +162,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Java Full Stack Developer",
+      company: "INTUIT",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "June 2024 – Present",
+      desc: "Architecting and developing scalable microservices and cloud-native financial solutions using Java, Spring Boot, and AWS. Leading backend development for QuickBooks Books Review and Outbound Dialer platforms.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Contributed to QuickBooks Books Review, implementing backend logic for Grouping, Statements, and Income Tax tabs, ensuring accuracy in financial data aggregation",
+        "Developed business logic for Balance Sheet flipping and account mapping, dynamically adapting financial reporting based on business rules",
+        "Packaged financial services using Docker containers and coordinated deployments via Kubernetes, embedding the process into CI/CD pipelines to support automated, secure and scalable delivery",
+        "Designed and developed RESTful APIs for the Outbound Dialer platform, enabling businesses to upload CSV contact data and trigger outbound calls through Amazon Connect and Pinpoint Journeys",
+        "Implemented high-performance backend services using Java 8 and Java 21 (Spring Boot) for call scheduling, data ingestion, and campaign management workflows",
+        "Integrated backend services with the Outbound Dialer Manager frontend, building and enhancing user interfaces with JavaScript for call configuration and monitoring",
+        "Improved backend performance and API response times through code optimization, asynchronous processing, and efficient data caching techniques",
+        "Integrated RESTful and GraphQL APIs into financial ecosystems, enabling smooth client-server data interaction and implementing backend logic for fast and scalable processing",
+        "Delivered cloud-native financial solutions on AWS, utilizing AWS Lambda, AWS EC2, AWS S3 and AWS IAM to build secure, scalable, event-driven architectures with high availability",
+        "Monitored and troubleshooted production issues using Splunk, enhancing reliability, observability, and proactive error detection across backend systems",
+        "Collaborated with cross-functional teams (Product, QA, and DevOps) to deliver scalable and secure backend microservices on AWS Cloud Infrastructure",
+        "Participated in code reviews, technical design discussions, and mentoring sessions, promoting best practices in Java, API design, and software architecture"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Java Developer",
+      company: "Cognizant Technology Solutions (CTS)",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "June 2022 – October 2022",
+      desc: "Migrated monolithic applications to microservices architecture and developed REST APIs to streamline system integrations.",
+      descBullets: [
+        "Migrated monolithic applications to a microservices architecture, reducing downtime by 15%",
+        "Developed REST APIs to streamline system integrations, enhancing data processing speeds",
+        "Improved the user experience with Angular 14 and optimized UI responsiveness by 25%",
+        "Configured Spring Batch for efficient handling of data-intensive workflows",
+        "Deployed containerized applications using Docker and Kubernetes, achieving 99.9% uptime"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Jr Java Developer",
+      company: "HDFC Bank",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2021 – June 2022",
+      desc: "Developed RESTful APIs using Spring Boot and migrated legacy databases to Cassandra for improved scalability.",
+      descBullets: [
+        "Developed RESTful APIs using Spring Boot, ensuring seamless front-end and back-end communication",
+        "Migrated legacy relational databases to Cassandra, increasing scalability and reducing latency",
+        "Enhanced system reliability by implementing Apache Kafka for distributed messaging",
+        "Conducted unit and integration testing with JUnit, improving code coverage by 30%"
+      ]
     }
   ]
 };
@@ -212,29 +223,40 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Major Projects",
+  subtitle: "KEY PROJECTS AND PLATFORMS I'VE DEVELOPED AND CONTRIBUTED TO",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Expert Hiring Platform",
+      projectDesc: "Mainstream platform for recruiters to hire candidates with workflow tracking and role-based access control. Implemented sign-on bonus feature from backend to database to reporting.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://694c93a191fdb86f217bc6ff--incredible-marzipan-d93fe7.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "QuickBooks Books Review",
+      projectDesc: "Financial data aggregation platform with backend logic for Grouping, Statements, and Income Tax tabs. Implemented Balance Sheet flipping and account mapping with dynamic business rules.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn More",
+          url: "#"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Outbound Dialer Platform",
+      projectDesc: "RESTful API platform enabling businesses to upload CSV contact data and trigger outbound calls through Amazon Connect and Pinpoint Journeys. Built with Java 8/21 and Spring Boot.",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "#"
         }
       ]
     }
@@ -372,8 +394,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (316)-928-9781",
+  email_address: "shamanthularohan@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +405,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
